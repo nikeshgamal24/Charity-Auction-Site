@@ -1,0 +1,136 @@
+/*******************Digital Clock**************/
+#topBar #digitalClock{
+    font-size: 27px;
+    color: white;
+    font-weight: 600;
+    padding: 2px 0px 0px 0px;
+}
+/******************End of Clock************/
+
+/*****************Logo************/
+
+#navigationBar{
+    height: 63px;
+    align-items: center;    
+}
+#navigationBar #Themetitle{
+height: 54px ;
+position: relative;
+left: -50px;
+}
+
+#navigationBar img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/*****************End of Logo************/
+
+#ab{
+   width: 100%;
+   height: 490px;
+   background-color: rgb(179,225,255);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#ab #abimg{
+    width: 40%;
+    height: 80%;
+    margin: 0px 160px 0px 20px;
+}
+
+
+#ab #abimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#ab #abtext{
+    width: 40%;
+    height: 80%;
+    margin: 0px  0px 0px 140px;
+    padding: 30px 20px 30px 0px;
+}
+
+#ab #abtext #abdes{
+    font-size: 2.6rem;
+    font-weight: 700;
+    color:rgb(14,85,159);
+}
+/***********************About Description Portion****************/
+
+#aboutsec{
+    width: 80%;
+    height: 875px; 
+   margin: 0 auto;
+   /* letter-spacing: .5px; */
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+#aboutsec .abparatitle{
+    font-size: 2.7rem;
+    font-weight: 700;
+    color:rgb(14,85,159);
+    padding: 30px 48px;
+} 
+
+#aboutsec .abparades{
+    font-size: 1.3rem;
+    color:rgb(14,85,159);
+    padding: 0px 50px;
+    margin-bottom: 20px;
+}
+
+/*******************3rd section******************/ 
+#absthec{
+    text-align: center;
+    width: 100%;
+    height: 275px; 
+   margin: 0 auto;
+   background-color: rgb(126, 188, 241);
+}
+
+#absthec #abthTitle{
+    text-align: center;
+    font-size: 2.75rem;
+    font-weight: 600;
+    color:rgb(11, 68, 129);
+    padding: 69px 60px 10px;
+    margin: 0px 40px 0px;
+}
+#absthec #abthdes{
+    text-align: center;
+    font-size: 1.5rem;
+    color:rgb(11, 68, 129);
+    padding: 0px 60px;
+    margin: 0px 40px 20px;
+}
+
+#absthec #abthBtn{
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+    border: 2px solid rgb(240,84,57);
+    background-color:rgb(240,84,57);
+    padding: 7px 14px;
+    border-radius: 7px;
+}
+
+#absthec #abthBtn:hover{
+  font-size: 21px;
+  font-weight: 500;
+  color:rgb(240,84,57);
+  border: 2px solid rgb(240,84,57);
+    background-color:white;
+}
+/*******************End of 3rd section******************/ 
+
+ /****************Footer***********************/
+
+
+
+  /**************** End of Footer***********************/

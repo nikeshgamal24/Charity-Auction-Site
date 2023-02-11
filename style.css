@@ -1,0 +1,298 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ body{
+     background-color: rgb(253, 253, 253);
+ }
+/******************Top Bar****************/
+#main_container{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(0,138,252);
+   
+}
+
+ #topBar{
+     position: relative;
+     width:80%;
+     margin: 0px auto;
+     display: flex;
+     justify-content: space-between;
+     padding: 8px 0 0 0;
+ }
+
+#main_container #titleName a{
+    color:white;
+    font-size: 30px;
+    font-weight:400;
+ 
+}
+
+/********************Navigation Bar******************/
+
+/********************Search Box******************/
+form #searchBox{
+    font-size: 18px;
+    width: 400px;
+    padding: 5px 12px;
+    border-radius: 15px;
+    border-color: rgb(0,138,252);
+}
+
+form #createAccount,#SignIn{
+    font-size: 18px;
+    padding:4px 6px;
+    border-radius: 8px;
+    transition: all;
+    margin: 0 10px;
+}
+form #SignIn{
+    color: black;
+    border: 0px;
+    font-weight:200;
+    padding: 4px 13px;
+  }
+  
+form #SignIn:hover{
+    background-color: black;
+    color: white;
+   
+}
+
+form #createAccount{
+  background-color:rgb(25, 204, 118);
+  color: white;
+  border: 0px;
+  font-weight:200;
+}
+form #createAccount:hover{
+    background-color:rgb(7, 182, 97);
+    color: white;
+   
+}
+
+/********************End of Search Box******************/
+
+
+/* ******************Navigation Bar**************/
+#navigationBar{
+    width: 100%;
+    height: 53px;
+    width: 87%;
+    margin: 6px auto;
+    padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navigationBar #Themetitle{
+    letter-spacing: 1px;
+    font-size: 34px;
+}
+
+#navItems li{
+    display: inline-block;
+    float: right;
+    padding: 6px 18px;
+    font-size:20px;
+}
+#navItems li a{
+    color: rgba(0, 0, 0, .6);
+    font-weight: 100;
+}
+#navItems li:hover{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+/******************Navigation Bar**************  */
+
+/***********************Register for Bid************/
+#registerForm{
+    width: 84%;
+    margin: 13px auto;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 3px solid rgb(0,138,252);
+    padding: 5px 18px;
+    border-top: 2px;
+    border-bottom: 0px;
+}
+
+#registerForm form{
+    font-size:19px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#registerForm form input{
+    font-size: 19px;
+    margin: 0px 3px;
+    padding: 3px 14px;
+    border: 1px solid gainsboro;
+    border-radius: 7px;
+}
+
+#formRegister #signBtnH{
+    padding: 5px 27px;
+    color: whitesmoke;
+    background-color:rgba(22, 135, 228, 0.932) ;
+}
+#formRegister label,#innerspan{
+    color: rgb(0,138,252);
+    font-weight: 100;
+}
+
+/***********************End of Register for Bid************/
+
+/****************Grid system using flexbox**************/
+#gridcontainer{
+ width:82%;
+  margin: 14px auto;
+  height: auto;
+  display: flex;
+
+}
+
+#gridcontainer #filter_container{
+    width: 25%;  
+     height: 900px;
+}
+
+#gridcontainer #grid{
+    width: 75%;  
+    height: 1250px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+#gridcontainer #grid .gridBox{
+    border: 1px solid black;
+    width: 32%;
+    height: 400px;
+}
+/**************** End of Grid system using flexbox**************/
+
+/*******************Filter Product Categories Form**************/
+#filter1,#filter2{
+    margin: 4px;
+}
+
+#filter1 #filterForm{
+    font-size: 18px;
+    border: 2px solid rgb(216, 211, 211);
+    border-radius: 5px;
+    border-top: 0px;
+}
+#filter2 #rangeForm{
+    font-size: 18px;
+    border: 2px solid rgb(216, 211, 211);
+    border-radius: 5px;
+    border-top: 0px;
+}
+
+#filter1 #filterForm p, #filter2 #rangeForm p{
+    font-size: 19px;
+    padding: 7px 15px;
+    border: 2px solid rgb(216, 211, 211);
+    border-left: 0px;
+    border-right: 0px;
+}
+
+    #filter1 #filterForm input,  #filter2 #rangeForm input{
+        margin: 6px 10px;
+        padding: 7px 24px;
+    }
+
+/*******************End of Filter Product Categories Form**************/
+/***********************Product display*****************/
+#gridcontainer #grid .gridBox .gridboximg{
+    height: 200px; 
+}
+
+
+#gridcontainer #grid .gridBox img{
+    width: 200px;
+    position: relative;
+    left: 45px;
+    top: 10px;
+}
+
+#gridcontainer #grid .gridBox p{
+    text-align: center;
+    margin: 1px auto;
+    width: 83%;
+    
+}
+
+#gridcontainer #grid .gridBox{
+    padding:3px 0px 0px 0px;
+    font-size: 19px;
+}
+#gridcontainer #grid .gridBox input{
+    padding:4px 6px 1px 6px;
+}
+
+
+#gridcontainer #grid .gridBox .cardtitle{
+    font-size: 1.6rem;
+    padding:12px 8px;
+}
+
+#gridcontainer #grid .gridBox .info{
+    display: flex;
+    color: rgba(22, 21, 21, 0.803);
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 17px;
+}
+#gridcontainer #grid .gridBox .info span{
+  margin: 2px 0px;
+}
+
+#gridcontainer #grid .gridBox input{
+    margin-top:8px;
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+#gridcontainer #grid .gridBox button{
+    padding:4px 8px;
+    margin-top:8px;
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+#gridcontainer #grid .gridBox input:hover{
+  cursor: pointer;
+} 
+
+#gridcontainer #grid .gridBox .detaibox{
+    width: 100%;
+    height:175px;
+}
+
+#gridcontainer #grid .gridBox .imgbox{
+    width: 100%;
+    height:205px;
+
+}
+/***********************End of Product display*****************/
+
+#formRegister #registerText{
+    background-color: white;
+    border: 0px;
+    color:  rgb(38,143,230);
+    font-size: 21px;
+}
